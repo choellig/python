@@ -1,5 +1,3 @@
-```Python
-
 def anti_vowel(text):
     vowels = "aioueAIOUE"
     for v in vowels:
@@ -7,5 +5,3 @@ def anti_vowel(text):
     return text
 
 print anti_vowel("Hey You!")
-
-```
