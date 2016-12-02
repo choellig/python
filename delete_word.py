@@ -1,4 +1,4 @@
-#delete words in a string
+#deletes one word in a string
 def censor(text, word):
     text = text.split()
     for item in text:
