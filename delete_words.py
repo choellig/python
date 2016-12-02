@@ -4,7 +4,7 @@ def censor(text, word):
     for item in text:
         if item == word:
             text.remove(word)
-    return text
+    return " ".join(text)
 
 print censor("this hack is wack hack", "hack")
 
